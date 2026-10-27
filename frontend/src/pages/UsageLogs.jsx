@@ -463,11 +463,11 @@ export default function UsageLogs() {
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-base font-semibold text-purple-400">请求体详细日志</h3>
               <div className="flex items-center gap-2">
+                {copyStatus === "ok" && <span className="text-xs text-green-400">已复制</span>}
+                {copyStatus === "fail" && <span className="text-xs text-red-400">复制失败</span>}
                 <button onClick={copyDetailBody} className="btn btn-secondary text-xs px-3 py-1.5">
                   复制 JSON
                 </button>
-                {copyStatus === "ok" && <span className="text-xs text-green-400">已复制</span>}
-                {copyStatus === "fail" && <span className="text-xs text-red-400">复制失败</span>}
                 <button onClick={() => setDetailBody(null)} className="text-gray-400 hover:text-white">✕</button>
               </div>
             </div>
