@@ -1,4 +1,4 @@
-full_hash=f2009a60c8a90d37e1afbcc518d42dc61cc72799
-short_hash=f2009a6
-message=Merge pull request #444 from neptalu0/fix-postgres-expiry
-date=2026-10-28 17:40:15 +0800
+full_hash=07ec1aaa608be4924ab4f6239529c54b2589ce84
+short_hash=07ec1aa
+message=Merge pull request #443 from wan0ge/fix/config-csv-numbers-input
+date=2026-10-28 17:41:24 +0800
